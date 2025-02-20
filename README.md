@@ -25,7 +25,6 @@ The project uses the following datasets:
   ```
   pip install pandas numpy matplotlib seaborn dash kaggle gdown
   ```
-
 ## Setup
 1. Clone the repository
 2. Set up Kaggle API credentials:
@@ -40,11 +39,10 @@ The project uses the following datasets:
 
 ## Project Structure
 ```
-├── milestone1.py          # Main analysis script
+├── milestone1.py          
 ├── Reports/
-│   └── Milestone1.pdf    # Detailed report of data collection and analysis
+│   └── Milestone1.pdf    
 ├── README.md
-└── requirements.txt
 ```
 
 
@@ -62,7 +60,7 @@ Upcoming milestones include:
 - Feature Engineering (Feb 21 - Mar 2)
 - Feature Selection (Mar 2 - Mar 7)
 - Data Modeling (Mar 8 - Mar 14)
-- Final Report (Mar 14 - 20)
+- Report For Milestone 2 (Mar 14 - 20)
 
 
 ## LLM
