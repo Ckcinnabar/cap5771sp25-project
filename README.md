@@ -55,6 +55,83 @@ The project uses the following datasets:
 - Correlation analysis
 - Position-specific insights
 
+
+## Implemented Features and Methodology
+
+### Data Preprocessing
+- **Position Encoding**: Implemented custom mapping systems to consolidate similar positions
+  - NBA positions reduced from 5 to 3 categories (Guards, Forwards, Centers)
+  - NFL positions reduced from 18 to 8 functional groups
+  - FIFA positions handled separately due to positional complexity
+- **Feature Engineering**:
+  - Added BMI (Body Mass Index) to capture optimal body composition for different sports
+  - Created enter_pro feature to track age of entry into professional leagues
+  - Standardized numerical features for consistent model training
+- **Dataset Enhancement**:
+  - Expanded NBA dataset from 399 to 800 players by incorporating NBA 2K20 data
+  - Split data into 5 distinct datasets for separate model training
+
+### Model Development
+- **Multiple Regression Models**:
+  - Linear Models: Linear Regression, Ridge Regression, Lasso Regression
+  - Non-Linear Models: Random Forest Regressor, Gradient Boosting Regressor
+- **Hyperparameter Optimization**:
+  - Implemented GridSearchCV for systematic parameter tuning
+  - Optimized parameters include:
+    - Tree depths, estimator counts, and learning rates for ensemble methods
+    - Regularization strengths for Ridge and Lasso
+- **Automated Training Framework**:
+  - Developed unified model execution pipeline to streamline experimentation
+  - Systematically tracked feature utilization and model performance
+  - Implemented standardized evaluation metrics (MSE, RMSE, R² score)
+
+### Key Findings
+- **Sport-Specific Best Models**:
+  - NBA: Gradient Boosting 
+  - NFL: Random Forest 
+  - FIFA: Ridge Regression 
+- **Physical Attribute Importance**:
+  - NBA: Physical attributes less predictive of salary compared to other sports
+  - NFL: Strong correlation between physical attributes and earnings, especially for linemen
+  - FIFA: Speed and agility-related metrics most valuable across positions
+- **Feature Importance Variation**:
+  - Height most predictive for NBA centers
+  - Weight strongly correlated with NFL salary
+  - BMI particularly important for FIFA players
+  - Early professional entry age significantly indicative of earning potential in NBA
+
+### Correlation Analysis
+- Implemented specialized correlation analysis function (`corr_matrix_plt`)
+- Generated correlation heatmaps to visualize feature relationships
+- Identified key physical predictors for each sport
+
+## Key Features of the Analysis
+- Descriptive statistics for athlete attributes
+- Physical attribute comparisons across sports
+- Salary distribution analysis
+- Performance rating comparisons
+- Age and experience analysis
+- Correlation analysis
+- Position-specific insights
+- Predictive modeling of earnings potential based on physical attributes
+
+## Completed Milestones
+- Data Collection and Exploration (Milestone 1)
+- Feature Engineering (Feb 21 - Mar 2)
+- Feature Selection (Mar 2 - Mar 7)
+- Data Modeling (Mar 8 - Mar 14)
+- Report For Milestone 2 (Mar 14 - 20)
+
+## Future Development
+Upcoming developments include:
+- Integration of additional performance metrics
+- Development of interactive prediction tool for user input
+- Sports-specific career path recommendation system
+- Incorporation of historical progression data for early-career projection
+
+## LLM
+I use Claude for polishing my reports, helping to correct grammar and enhance readability. Claude also assisted in optimizing the technical writing in the methodology sections.
+
 ## Future Development
 Upcoming milestones include:
 - Feature Engineering (Feb 21 - Mar 2)
