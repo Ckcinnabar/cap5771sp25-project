@@ -115,12 +115,6 @@ The project uses the following datasets:
 - Position-specific insights
 - Predictive modeling of earnings potential based on physical attributes
 
-## Completed Milestones
-- Data Collection and Exploration (Milestone 1)
-- Feature Engineering (Feb 21 - Mar 2)
-- Feature Selection (Mar 2 - Mar 7)
-- Data Modeling (Mar 8 - Mar 14)
-- Report For Milestone 2 (Mar 14 - 20)
 
 ## Future Development
 Upcoming developments include:
@@ -132,14 +126,4 @@ Upcoming developments include:
 ## LLM
 I use Claude for polishing my reports, helping to correct grammar and enhance readability. Claude also assisted in optimizing the technical writing in the methodology sections.
 
-## Future Development
-Upcoming milestones include:
-- Feature Engineering (Feb 21 - Mar 2)
-- Feature Selection (Mar 2 - Mar 7)
-- Data Modeling (Mar 8 - Mar 14)
-- Report For Milestone 2 (Mar 14 - 20)
-
-
-## LLM
-I use claude for polish my report, I use claude to correct the grammer and made the report more readable
 
